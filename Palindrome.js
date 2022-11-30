@@ -1,11 +1,11 @@
 let strr="madam";
 let temp="";
-for (let i=strr.length; i>0; i--)
+for (let i=strr.length-1; i>=0; i--)
 {
-    bag+=strr[i];
+    temp+=strr[i];
 }
 
-if (bag==strr)
+if (temp==strr)
 {
     console.log("This is a Palindrome.");
 }

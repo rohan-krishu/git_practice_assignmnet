@@ -1,10 +1,12 @@
 let num=13;
-
-if ((num%1==0) && (num%num==0))
-{
-    console.log("This is a Prime Number -" , num);
-}
-else
-{
-    console.log("This is not a Prime Number -" , num);
+let count=0
+for(let i=1; i<=num; i++){
+  if(num%i==0)
+   {
+    count++
+   }
+} if(count==2){
+ console.log(num,"is a prime")
+}else {
+ console.log(num,"is not a prime number")
 }
